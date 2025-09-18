@@ -1,6 +1,6 @@
 # Capstone Project: Customer Insights Dashboard (Weeks 9–11)
 
-## 📌 Scenario
+## Scenario
 You are working as a junior business analyst in a digital retail company.  
 Your manager has asked you to develop a **Python-based dashboard** that helps the team visualise and understand **customer purchase behaviour**.  
 
@@ -12,9 +12,8 @@ The dashboard should:
 - Include **unit tests** for the analytical functions  
 - Reflect on the role of **AI coding assistants** in your development process  
 
----
 
-## 🧩 Core Requirements
+## Core Requirements
 
 ### Week 9 – Testing and AI Coding
 #### Unit Testing
@@ -31,7 +30,6 @@ The dashboard should:
   - How you reviewed/refined the AI’s suggestions.  
   - Risks/ethical considerations.  
 
----
 
 ### Week 10 – Dashboard Development
 #### Core Features
@@ -45,7 +43,6 @@ The dashboard should:
 - Include a **simple text menu** so the user can choose which chart to view.  
 - Save **dashboard outputs** (charts as PNG and summary JSON) to the `outputs/` folder.  
 
----
 
 ### Week 11 – Wrap-Up and Reflection
 #### Final Deliverables
@@ -59,17 +56,15 @@ The dashboard should:
     - Role of AI assistants in your coding.  
     - Improvements you’d make with more time.  
 
----
 
-## 🚀 Stretch Goals (Optional)
+## Stretch Goals (Optional)
 - Add an **interactive dashboard** (e.g., Streamlit or Dash).  
 - Allow filtering by **date range** or **customer segment**.  
 - Save charts automatically to `.png` files.  
 - Export metrics to **Excel/CSV** for reporting.  
 
----
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 # (Optional) create and activate a virtual environment
