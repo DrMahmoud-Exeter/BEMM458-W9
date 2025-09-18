@@ -1,6 +1,6 @@
 # Capstone Project: Customer Insights Dashboard (Weeks 9–11)
 
-## 📌 Scenario
+##  Scenario
 You are working as a junior business analyst in a digital retail company.  
 Your manager has asked you to create a simple **Python-based analytics application** that helps the team understand **customer purchase behaviour**.  
 
@@ -13,9 +13,8 @@ The application should:
 
 You should also include **unit tests** for key functions and reflect on the role of **AI coding assistants** in your development process.
 
----
 
-## 🧩 Core Requirements
+## Core Requirements
 
 ### Week 9 – Testing and AI Coding
 #### Unit Testing
@@ -33,7 +32,6 @@ You should also include **unit tests** for key functions and reflect on the role
   - How you reviewed/edited/refined the AI’s suggestions.
   - Any risks or ethical considerations.
 
----
 
 ### Week 10 – Application Development
 #### Core Features
@@ -47,7 +45,6 @@ You should also include **unit tests** for key functions and reflect on the role
   - Save high scores or purchase summaries to a JSON file.
 - Handle file errors gracefully (`FileNotFoundError`, `JSONDecodeError`).
 
----
 
 ### Week 11 – Wrap-Up and Reflection
 #### Final Deliverables
@@ -61,9 +58,8 @@ You should also include **unit tests** for key functions and reflect on the role
     - How AI tools supported your coding.
     - What you would improve with more time.
 
----
 
-## 🚀 Stretch Goals (Optional)
+##  Extra activities
 - Add **data visualisation** with Matplotlib (e.g., bar chart of top 5 products).
 - Include **input prompts** for interactive use.
 - Store data in multiple formats (CSV + JSON).
