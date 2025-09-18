@@ -1,68 +1,70 @@
 # Capstone Project: Customer Insights Dashboard (Weeks 9–11)
 
-##  Scenario
+## Scenario
 You are working as a junior business analyst in a digital retail company.  
-Your manager has asked you to create a simple **Python-based analytics application** that helps the team understand **customer purchase behaviour**.  
+Your manager has asked you to develop a **Python-based dashboard** that helps the team visualise and understand **customer purchase behaviour**.  
 
-The application should:
-- Load customer data  
-- Analyse metrics  
-- Run automated tests  
+The dashboard should:
+- Load and process **customer, product, and purchase data**  
+- Compute **key business metrics** (spend, churn, popular products)  
+- Display results using **visualisations**  
 - Handle errors gracefully  
-- Persist results  
+- Include **unit tests** for the analytical functions  
+- Reflect on the role of **AI coding assistants** in your development process  
 
-You should also include **unit tests** for key functions and reflect on the role of **AI coding assistants** in your development process.
-
+---
 
 ## Core Requirements
 
 ### Week 9 – Testing and AI Coding
 #### Unit Testing
-- Write **unit tests** (with `pytest`) for at least **3 core functions**:
-  - Calculate **total spend per customer**
-  - Compute **churn rate**
-  - Find the **most popular product**
-- Use different assert methods (`assert`, `assertEqual`, `assertIn`, etc.).
+- Write unit tests (with `pytest`) for at least **3 core analytics functions**:
+  - Total spend per customer
+  - Churn rate
+  - Most popular product
 - Demonstrate running tests locally and interpreting results.
 
 #### AI Assistant Reflection
-- Experiment with an AI coding assistant (e.g., GitHub Copilot, ChatGPT).  
-- Document in comments or a short markdown note:
-  - Which part of the code you asked the AI to help with.
-  - How you reviewed/edited/refined the AI’s suggestions.
-  - Any risks or ethical considerations.
+- Experiment with an AI coding assistant (e.g., Copilot, ChatGPT).  
+- Document:
+  - Which part of the code you asked the AI to help with.  
+  - How you reviewed/refined the AI’s suggestions.  
+  - Risks/ethical considerations.  
 
+---
 
-### Week 10 – Application Development
+### Week 10 – Dashboard Development
 #### Core Features
-- Create a **User class** with attributes (`username`, `high_score`, `purchases`) and methods to update purchases and calculate totals.
-- Create a **Product/Question class**:
-  - **Analytics theme:** store `product_id`, `category`, and `price`.  
-  - **Quiz theme:** store `question`, `options`, and `correct_answer`.  
-- Load data from a **CSV or JSON file** (e.g., purchase history or quiz bank).
-- Allow the user to:
-  - View summary statistics (total sales, most popular product, average spend).
-  - Save high scores or purchase summaries to a JSON file.
-- Handle file errors gracefully (`FileNotFoundError`, `JSONDecodeError`).
+- Build a **dashboard script** (`dashboard.py`) that:
+  - Loads data from CSV/JSON  
+  - Computes **summary metrics**  
+  - Displays **visualisations** (Matplotlib/Seaborn/Plotly if available):  
+    - Bar chart of top products  
+    - Churn rate visualisation (pie or bar)  
+    - Spend by customer (bar chart)  
+- Include a **menu or simple UI** (e.g., text menu or notebook interface) to choose what to view.  
+- Save **dashboard outputs** (charts or summary JSON) to the `data/` folder.  
 
+---
 
 ### Week 11 – Wrap-Up and Reflection
 #### Final Deliverables
-- A **Python application** (structured with functions and classes).
-- A **tests/** folder containing your pytest test cases.
-- A **README.md** file that:
-  - Explains how to run the program.
-  - Summarises which features are included.
-  - Reflects on your learning journey:
-    - How you used Python concepts (lists, loops, dictionaries, classes, files).
-    - How AI tools supported your coding.
-    - What you would improve with more time.
+- A **Python dashboard** (structured code + charts).  
+- A **tests/** folder with pytest test cases.  
+- A **README.md** that:
+  - Explains how to run the dashboard.  
+  - Shows example screenshots of the charts (optional).  
+  - Reflects on your learning:
+    - Use of Python (lists, loops, dictionaries, classes, files, visualisation).  
+    - Role of AI assistants in your coding.  
+    - Improvements you’d make with more time.  
 
+---
 
-##  Extra activities
-- Add **data visualisation** with Matplotlib (e.g., bar chart of top 5 products).
-- Include **input prompts** for interactive use.
-- Store data in multiple formats (CSV + JSON).
-- Create additional automated tests for **edge cases**.
+## Optional
+- Add an **interactive dashboard** (e.g., with `Streamlit` or `Dash`).  
+- Allow filtering by **date range** or **customer segment**.  
+- Save charts automatically to `.png` files.  
+- Export metrics to **Excel/CSV** for reporting.  
 
 ---
