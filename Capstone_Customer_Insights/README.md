@@ -1,6 +1,5 @@
 # Capstone Project — Customer Insights Dashboard (Weeks 9–11)
 
-**Audience:** MSc Business Analytics  
 **Goal:** Build a small Python analytics app that loads purchase data, computes metrics, 
 saves results, and includes automated tests. Reflect on responsible use of AI coding tools.
 
