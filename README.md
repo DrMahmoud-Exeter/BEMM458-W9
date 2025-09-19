@@ -1,4 +1,4 @@
-# Capstone Project: Customer Insights Dashboard (Weeks 9–11)
+# Capstone Project: Customer Insights Dashboard (Weeks 9–10)
 
 ## Scenario
 You are working as a junior business analyst in a digital retail company.  
@@ -47,7 +47,7 @@ The dashboard should:
 
 ---
 
-### Week 11 – Wrap-Up and Reflection
+### Wrap-Up and Reflection
 #### Final Deliverables
 - A **Python dashboard** (structured code + charts).  
 - A **tests/** folder with pytest test cases.  
